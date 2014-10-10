@@ -1,0 +1,26 @@
+Last login: Fri Oct 10 08:44:25 2014 from xxx.xxx.xxx.xxx
+currently active
+ 08:57:53 up 157 days,  9:20,  1 user,  load average: 0.02, 0.07, 0.02
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+xxxxxx   ttyp0    xxx.xxx.xxx.xxx   08:57   605days  0.00s  0.00s -bash
+------------------------------------------------------------------
+last logins
+
+wtmp begins Fri Oct 10 08:43:48 2014
+------------------------------------------------------------------
+open listening ports
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      20323/apache2   
+tcp        0      0 xxx.xxx.xxx.xxx:64738   0.0.0.0:*               LISTEN      1534/murmurd    
+tcp        0      0 0.0.0.0:2221            0.0.0.0:*               LISTEN      1295/sshd       
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      20323/apache2   
+tcp        0      0 0.0.0.0:8181            0.0.0.0:*               LISTEN      20323/apache2   
+------------------------------------------------------------------
+last logins
+Oct 10 08:43:48 myServer sshd[5222]: Accepted password for root from remoteClient port 34268 ssh2
+Oct 10 08:44:25 myServer sshd[5276]: Accepted password for root from xxx.xxx.xxx.xxx port 3824 ssh2
+Oct 10 08:57:53 myServer sshd[5390]: Accepted password for root from xxx.xxx.xxx.xxx port 37607 ssh2
+------------------------------------------------------------------
+last FAILED logins
+Oct 10 08:44:05 myServer sshd[5272]: Failed password for root from xxx.xxx.xxx.xxx port 55769 ssh2
+Oct 10 08:44:12 myServer sshd[5274]: Failed password for root from xxx.xxx.xxx.xxx port 16528 ssh2
+Oct 10 08:44:19 myServer sshd[5274]: Failed password for root from xxx.xxx.xxx.xxx port 16528 ssh2
