@@ -13,4 +13,14 @@ Example output of this script when i log in [login.txt](login.txt)
 
 
 
+Installation
+===================
+
+Just copy the check.sh file to your home directory. (Or any path that you want)
+Then add the script to your .bashrc using the command below.
+
+<code>#> echo "~/check.sh" >> ~/.bashrc</code>
+
+
+
 
